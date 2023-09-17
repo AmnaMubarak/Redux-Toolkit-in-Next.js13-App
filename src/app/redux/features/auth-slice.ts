@@ -36,9 +36,11 @@ export const auth = createSlice({
                     username: action.payload.username,
                     uid: action.payload.uid,
                     isModerator: false,
-                }
+                
             }
-        });
+        }
+    }
+});
 
 export const { login, logout } = auth.actions;
 export default auth.reducer;

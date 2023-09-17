@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container, Typography, Grid, Card, CardMedia, CardContent } from '@material-ui/core';

@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-500 py-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-2xl font-bold text-white">
-          <Link href="home">Home</Link>
+          <Link href="home" className = "py-4">Home</Link>
         </div>
         <ul className="flex space-x-4">
           <li>
